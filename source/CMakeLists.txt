@@ -14,6 +14,7 @@ configure_file(version.h.in ${CMAKE_CURRENT_BINARY_DIR}/include/${META_PROJECT_N
 # Libraries
 set(IDE_FOLDER "")
 add_subdirectory(baselib)
+add_subdirectory(apuelib)
 add_subdirectory(fiblib)
 
 # Examples
